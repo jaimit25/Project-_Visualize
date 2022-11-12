@@ -6,7 +6,8 @@ import subprocess
 
 
 img = cv.imread("images.jpg", cv.IMREAD_GRAYSCALE) # The image pixels have range [0, 255]
-img = img/255  # Now the pixels have range [0, 1]
+# img = img/255  # Now the pixels have range [0, 1]
+img = img 
 img_list = img.tolist() # We have a list of lists of pixels
 
 result = ""
@@ -76,6 +77,6 @@ with open(r"image-output.txt", 'r') as fp:
 
 # g++ core.cpp -o core && "/Users/jaimitkumarpanchal/Desktop/Project-Visualization/"core
 # g++ -std=c++17 -g main.cpp -o main
-subprocess.run(["g++","-std=c++17","","core.cpp","-o","core"])
-subprocess.run(["./core"])
+# subprocess.run(["g++","-std=c++17","","core.cpp","-o","core"])
+# subprocess.run(["./core"])
 # f.truncate(0)
