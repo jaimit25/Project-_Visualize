@@ -1,28 +1,28 @@
 # Hello there,
 
-Owner : Jaimitkumar Panchal
-Day Created : 12 Nov 2022
+Owner : Jaimitkumar Panchal <br>
+Day Created : 12 Nov 2022 <br>
 Day Completion : 13 Nov 2022 | 03:40 PM
 
-## This Project Contains Implementation of Flood Fill Algorithm, By default the Parameters are set to for image-"images.jpg"
+#### This Project Contains Implementation of Flood Fill Algorithm, By default the Parameters are set to for image-"images.jpg"
 - New Color : 100
 - (Row,Col) : (202,0)
 
-## To Trace the Changes after Running (command : "bash middle_Operation.sh")
+#### To Trace the Changes after Running (command : "bash middle_Operation.sh")
 - Open image-output.txt go to line no 202 and check out the first element which is "1".
 - Now, Open output.txt and go to line no. 202.
 
-## Observation's
+#### Observation's
 - All the Pixels with the old Color represented by "1" is updated with the new Color "100".
 - to run the Overall - Project Script, use command : "bash run.sh".
 
-## ⚡ Technologies
+#### ⚡ Technologies
  - CPP
  - Python 
  - Shell Script
  - OpenCV ,Numpy
 
-## Talk to me about
+#### Talk to me about
 
 - Solving Data structure and algorithm questions in **C, C++ , Java and Dart**
 - Front-end development using **HTML, CSS, JavaScript, XML In Android Java, Flutter **
