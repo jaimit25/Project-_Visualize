@@ -11,6 +11,7 @@ Day Completion : 13 Nov 2022 | 03:40 PM
 #### To Trace the Changes after Running (command : "bash middle_Operation.sh")
 - Open image-output.txt go to line no 202 and check out the first element which is "1".
 - Now, Open output.txt and go to line no. 202.
+- Make sure opencv and numpy is installed using python3 or use command ("bash init.sh") to auto install and auto run (middle_Operation.sh) file.
 
 #### Observation's
 - All the Pixels with the old Color represented by "1" is updated with the new Color "100".
