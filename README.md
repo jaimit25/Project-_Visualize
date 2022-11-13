@@ -8,15 +8,21 @@ Day Completion : 13 Nov 2022 | 03:40 PM
 - New Color : 100
 - (Row,Col) : (202,0)
 
-#### To Trace the Changes after Running (command : "bash middle_Operation.sh")
+#### Prerequisite
+- Choose bash as your Shell on visual studio code if using windows (Default is Powershell)
+- Make sure opencv and numpy is installed using python3 or use command ("bash init.sh") to auto install and auto run (middle_Operation.sh) file.
+ ![Screenshot 2022-11-13 at 4 19 42 PM](https://user-images.githubusercontent.com/68295105/201517896-480b05cb-a61f-44c2-b96a-043baf38a5e4.png)
+
+
+#### To Trace the Changes after Running (Run command : "bash middle_Operation.sh")
 - Open image-output.txt go to line no 202 and check out the first element which is "1".
 - Now, Open output.txt and go to line no. 202.
-- Make sure opencv and numpy is installed using python3 or use command ("bash init.sh") to auto install and auto run (middle_Operation.sh) file.
 
 #### Observation's
 - All the Pixels with the old Color represented by "1" is updated with the new Color "100".
 - to run the Overall - Project Script, use command : "bash run.sh".
 - To clean un-necessary text files(Intermediate Results) use command "bash clean.sh"
+- To build the output image uncomment line :  cv2. imshow() in build_image.py file.
 
 #### ⚡ Technologies
  - CPP
