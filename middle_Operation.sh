@@ -1,5 +1,5 @@
+bash clean.sh
 clear
-
 rm middle.txt
 rm output.txt
 rm image-output.txt
