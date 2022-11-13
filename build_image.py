@@ -117,3 +117,7 @@ updated_image_matrix = np.array(main_image_list)
 # cv.imshow("image", img)
 # cv.waitKey()
 
+# LINKS 
+# https://www.rapidtables.com/web/color/RGB_Color.html
+# https://note.nkmk.me/en/python-numpy-ndarray-ndim-shape-size/
+# https://stackoverflow.com/questions/26681756/how-to-convert-a-python-numpy-array-to-an-rgb-image-with-opencv-2-4
