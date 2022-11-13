@@ -15,6 +15,7 @@ Day Completion : 13 Nov 2022 | 03:40 PM
 #### Observation's
 - All the Pixels with the old Color represented by "1" is updated with the new Color "100".
 - to run the Overall - Project Script, use command : "bash run.sh".
+- To clean un-necessary text files(Intermediate Results) use command "bash clean.sh"
 
 #### ⚡ Technologies
  - CPP
