@@ -80,12 +80,17 @@ for ele in arr:
         list2 = npArray2.tolist()
         main_image_list.append(list2)
 
-print("1D Main Image size is : ",len(main_image_list))
-print("2D Main Image element(another list) size is : ",len(main_image_list[0]))
-print("3D Main Image element inside another element(another list) size is : ",len(main_image_list[0][1]))
-print("First element is : ", main_image_list[0][0][0])
-        
+# print("1D Main Image size is : ",len(main_image_list))
+# print("2D Main Image element(another list) size is : ",len(main_image_list[0]))
+# print("3D Main Image element inside another element(another list) size is : ",len(main_image_list[0][1]))
+# print("First element is : ", main_image_list[0][0][0])
 
+# Convert List to Numpy nd-Array to 
+updated_image_matrix = np.array(main_image_list)
+
+
+# cv.imwrite('updated_image.jpg', updated_image_matrix)
+# cv.imshow("image", updated_image_matrix)
 
 
 

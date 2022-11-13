@@ -170,7 +170,7 @@ vector<vector<long double>> processWithOne(vector<vector<long double>> image,
 int main() {
   // x : 9 , y : 10
   vector<vector<long double>> image = getTwoD_RepresentationMatrix();
-  long double newColor = 2;
+  long double newColor = 100;
 
   // call flood fill where 1 is the value
   //  vector<vector<long double>> updated_Image = processWithOne(image,
@@ -178,7 +178,7 @@ int main() {
   //  // printImage(updated_Image, 0);
   //  printImage(updated_Image, 1);
 
-  vector<vector<long double>> updated_Image = floodFill(image, 242, 0, newColor);
+  vector<vector<long double>> updated_Image = floodFill(image, 202, 0, newColor);
 
   writeOutput(updated_Image);
 

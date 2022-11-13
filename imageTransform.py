@@ -5,7 +5,7 @@ import os
 import subprocess
 
 
-# img = cv.imread("images.jpg", cv.IMREAD_GRAYSCALE) 
+# img = cv.imread("images.jpg", cv.IMREAD_GRAYSCALE) # The image pixels have range [0, 255]
 img = cv.imread("images.jpg") # The image pixels have range [0, 255]
 # img = img/255  # Now the pixels have range [0, 1]
 img = img 
